@@ -1,0 +1,16 @@
+{
+    "name": "staudenmeir/eloquent-param-limit-fix",
+    "description": "Eloquent eager loading fix for parameter limit in SQLite and SQL Server",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonas Staudenmeir",
+            "email": "mail@jonas-staudenmeir.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Staudenmeir\\EloquentParamLimitFix\\": "src/"
+        }
+    }
+}
