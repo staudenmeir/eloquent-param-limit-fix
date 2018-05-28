@@ -1,6 +1,6 @@
 {
     "name": "staudenmeir/eloquent-param-limit-fix",
-    "description": "Eloquent eager loading fix for parameter limits in SQLite and SQL Server",
+    "description": "Eloquent eager loading fix for parameter limits of SQLite and SQL Server",
     "license": "MIT",
     "authors": [
         {
