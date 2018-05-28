@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This Eloquent fix allows eager loading beyond the parameter limits of SQLite (999) and SQL Server (2,100).  
+This Laravel Eloquent fix allows eager loading beyond the parameter limits of SQLite (999) and SQL Server (2,100).  
 Tested with Laravel 5.4+.
 
 ## Installation
