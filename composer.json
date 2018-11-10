@@ -1,6 +1,6 @@
 {
     "name": "staudenmeir/eloquent-param-limit-fix",
-    "description": "Eloquent eager loading fix for parameter limits of SQLite and SQL Server",
+    "description": "Laravel Eloquent eager loading fix for parameter limits of SQLite and SQL Server",
     "license": "MIT",
     "authors": [
         {
@@ -8,9 +8,18 @@
             "email": "mail@jonas-staudenmeir.de"
         }
     ],
+    "require-dev": {
+        "illuminate/database": "^5.4",
+        "phpunit/phpunit": "~6.5"
+    },
     "autoload": {
         "psr-4": {
             "Staudenmeir\\EloquentParamLimitFix\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     }
 }
