@@ -16,7 +16,16 @@ Tested with Laravel 5.4+.
 
 Use the `ParamLimitFix` trait in the affected models: 
 
-    class User extends Model
+```php
+class User extends Model
+{
+    use \Staudenmeir\EloquentParamLimitFix\ParamLimitFix;
+
+    public function posts()
     {
-        use \Staudenmeir\EloquentParamLimitFix\ParamLimitFix;
+        return $this->hasMany('App\Post');
     }
+}
+
+$users = User::with('posts')->get();
+```
