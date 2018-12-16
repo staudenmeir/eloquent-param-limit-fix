@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/staudenmeir/eloquent-param-limit-fix.svg?branch=master)](https://travis-ci.org/staudenmeir/eloquent-param-limit-fix)
+[![Code Coverage](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/v/stable)](https://packagist.org/packages/staudenmeir/eloquent-param-limit-fix)
 [![Total Downloads](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/downloads)](https://packagist.org/packages/staudenmeir/eloquent-param-limit-fix)
 [![License](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/license)](https://packagist.org/packages/staudenmeir/eloquent-param-limit-fix)
