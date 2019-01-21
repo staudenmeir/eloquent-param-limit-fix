@@ -10,7 +10,7 @@
     ],
     "require-dev": {
         "illuminate/database": "^5.4",
-        "phpunit/phpunit": "~6.5"
+        "phpunit/phpunit": "~5.7|~6.5"
     },
     "autoload": {
         "psr-4": {

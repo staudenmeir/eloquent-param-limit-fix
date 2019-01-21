@@ -18,11 +18,26 @@ abstract class TestCase extends Base
         $db = new DB;
         $db->addConnection([
             'driver' => 'sqlite',
-            'database' => ':memory:'
+            'database' => ':memory:',
+            'prefix' => '',
         ]);
         $db->setAsGlobal();
         $db->bootEloquent();
 
+        $this->migrate();
+
+        $this->seed();
+
+        DB::enableQueryLog();
+    }
+
+    /**
+     * Migrate the database.
+     *
+     * @return void
+     */
+    protected function migrate()
+    {
         DB::schema()->create('users', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
@@ -33,16 +48,24 @@ abstract class TestCase extends Base
             $table->unsignedInteger('user_id');
             $table->timestamps();
         });
+    }
 
-        Model::unguarded(function () {
-            for ($i = 0; $i < 1000; $i++) {
-                User::create();
-            }
+    /**
+     * Seed the database.
+     *
+     * @return void
+     */
+    protected function seed()
+    {
+        Model::unguard();
 
-            Post::create(['user_id' => 1]);
-            Post::create(['user_id' => 1000]);
-        });
+        for ($i = 0; $i < 1000; $i++) {
+            User::create();
+        }
 
-        DB::enableQueryLog();
+        Post::create(['user_id' => 1]);
+        Post::create(['user_id' => 1000]);
+
+        Model::reguard();
     }
 }
