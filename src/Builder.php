@@ -24,7 +24,7 @@ class Builder extends \Illuminate\Database\Eloquent\Builder
     /**
      * Eager load the relationships for the models.
      *
-     * @param  array  $models
+     * @param array $models
      * @return array
      */
     public function eagerLoadRelations(array $models)
