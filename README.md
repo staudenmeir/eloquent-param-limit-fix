@@ -7,7 +7,8 @@
 
 ## Introduction
 
-This Laravel Eloquent fix allows eager loading beyond the parameter limits of [SQLite](https://www.sqlite.org/limits.html#max_variable_number) (999) and [SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/maximum-capacity-specifications-for-sql-server) (2,100).  
+This Laravel Eloquent fix allows eager loading beyond the parameter limits of [SQLite](https://www.sqlite.org/limits.html#max_variable_number) (999) and [SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/maximum-capacity-specifications-for-sql-server) (2,100).
+
 Tested with Laravel 5.4+.
 
 ## Installation
