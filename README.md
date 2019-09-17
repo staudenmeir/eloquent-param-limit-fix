@@ -32,3 +32,7 @@ class User extends Model
 
 $users = User::with('posts')->get();
 ```
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE OF CONDUCT](CODE_OF_CONDUCT.md) for details.
