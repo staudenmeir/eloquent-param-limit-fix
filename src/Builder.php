@@ -29,12 +29,8 @@ class Builder extends \Illuminate\Database\Eloquent\Builder
      */
     public function eagerLoadRelations(array $models)
     {
-        $database = get_class($this->query->getConnection());
-
-        if (isset($this->parameterLimits[$database])) {
-            $limit = $this->parameterLimits[$database];
-
-            if (count($models) > $limit) {
+        foreach ($this->parameterLimits as $class => $limit) {
+            if ($this->query->getConnection() instanceof $class && count($models) > $limit) {
                 foreach (array_chunk($models, $limit) as $chunk) {
                     $this->eagerLoadRelations($chunk);
                 }
