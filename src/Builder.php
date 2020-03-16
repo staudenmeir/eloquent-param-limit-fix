@@ -2,6 +2,7 @@
 
 namespace Staudenmeir\EloquentParamLimitFix;
 
+use Illuminate\Database\MySqlConnection;
 use Illuminate\Database\SQLiteConnection;
 use Illuminate\Database\SqlServerConnection;
 
@@ -19,6 +20,7 @@ class Builder extends \Illuminate\Database\Eloquent\Builder
     protected $parameterLimits = [
         SQLiteConnection::class => 900,
         SqlServerConnection::class => 2000,
+        MySqlConnection::class => 65536,
     ];
 
     /**
