@@ -18,9 +18,9 @@ class Builder extends \Illuminate\Database\Eloquent\Builder
      * @var array
      */
     protected $parameterLimits = [
+        MySqlConnection::class => 65000,
         SQLiteConnection::class => 900,
         SqlServerConnection::class => 2000,
-        MySqlConnection::class => 65536,
     ];
 
     /**
