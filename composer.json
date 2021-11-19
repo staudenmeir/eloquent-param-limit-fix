@@ -9,8 +9,8 @@
         }
     ],
     "require-dev": {
-        "illuminate/database": "^8.0",
-        "phpunit/phpunit": "^9.3"
+        "illuminate/database": "^9.0",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
