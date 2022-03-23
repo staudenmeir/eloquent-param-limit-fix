@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests;
+namespace Staudenmeir\EloquentParamLimitFix\Tests;
 
 use Illuminate\Database\Capsule\Manager as DB;
-use Tests\Models\User;
+use Staudenmeir\EloquentParamLimitFix\Tests\Models\User;
 
 class ParamLimitFixTest extends TestCase
 {

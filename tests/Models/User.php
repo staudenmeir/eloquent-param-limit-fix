@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Models;
+namespace Staudenmeir\EloquentParamLimitFix\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Staudenmeir\EloquentParamLimitFix\ParamLimitFix;

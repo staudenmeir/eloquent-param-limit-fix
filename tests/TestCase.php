@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests;
+namespace Staudenmeir\EloquentParamLimitFix\Tests;
 
 use Illuminate\Database\Capsule\Manager as DB;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
 use PHPUnit\Framework\TestCase as Base;
-use Tests\Models\Post;
-use Tests\Models\User;
+use Staudenmeir\EloquentParamLimitFix\Tests\Models\Post;
+use Staudenmeir\EloquentParamLimitFix\Tests\Models\User;
 
 abstract class TestCase extends Base
 {
@@ -15,7 +15,7 @@ abstract class TestCase extends Base
     {
         parent::setUp();
 
-        $db = new DB;
+        $db = new DB();
         $db->addConnection([
             'driver' => 'sqlite',
             'database' => ':memory:',
@@ -39,12 +39,12 @@ abstract class TestCase extends Base
     protected function migrate()
     {
         DB::schema()->create('users', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
             $table->timestamps();
         });
 
         DB::schema()->create('posts', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
             $table->unsignedInteger('user_id');
             $table->timestamps();
         });
