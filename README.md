@@ -33,6 +33,12 @@ class User extends Model
 $users = User::with('posts')->get();
 ```
 
+### Package Conflicts
+
+- `staudenmeir/laravel-adjacency-list`: Replace both packages
+  with [staudenmeir/eloquent-param-limit-fix-x-laravel-adjacency-list](https://github.com/staudenmeir/eloquent-param-limit-fix-x-laravel-adjacency-list)
+  to use them on the same model.
+
 ## Contributing
 
 Please see [CONTRIBUTING](.github/CONTRIBUTING.md) and [CODE OF CONDUCT](.github/CODE_OF_CONDUCT.md) for details.
