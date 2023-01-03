@@ -9,9 +9,8 @@
         }
     ],
     "require-dev": {
-        "illuminate/database": "^9.0",
-        "phpunit/phpunit": "^9.5",
-        "nesbot/carbon": "^2.62.1"
+        "illuminate/database": "^10.0",
+        "phpunit/phpunit": "^9.5.10"
     },
     "autoload": {
         "psr-4": {
