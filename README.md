@@ -17,7 +17,7 @@ Tested with Laravel 5.4+.
 
 ## Usage
 
-Use the `ParamLimitFix` trait in the affected models: 
+Use the `ParamLimitFix` trait in the affected parent models: 
 
 ```php
 class User extends Model
