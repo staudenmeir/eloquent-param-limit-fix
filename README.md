@@ -1,11 +1,11 @@
-![CI](https://github.com/staudenmeir/eloquent-param-limit-fix/workflows/CI/badge.svg)
+# BelongsToThrough
+
+[![CI](https://github.com/staudenmeir/eloquent-param-limit-fix/actions/workflows/ci.yml/badge.svg)](https://github.com/staudenmeir/eloquent-param-limit-fix/actions/workflows/ci.yml)
 [![Code Coverage](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/v/stable)](https://packagist.org/packages/staudenmeir/eloquent-param-limit-fix)
-[![Total Downloads](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/downloads)](https://packagist.org/packages/staudenmeir/eloquent-param-limit-fix)
-[![License](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/license)](https://packagist.org/packages/staudenmeir/eloquent-param-limit-fix)
-
-## Introduction
+[![Total Downloads](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/downloads)](https://packagist.org/packages/staudenmeir/eloquent-param-limit-fix/stats)
+[![License](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/license)](https://github.com/staudenmeir/eloquent-param-limit-fix/blob/master/LICENSE)
 
 This Laravel Eloquent fix allows eager loading beyond the parameter limits of MySQL/MariaDB (65,535), [SQLite](https://www.sqlite.org/limits.html#max_variable_number) (999) and [SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/maximum-capacity-specifications-for-sql-server) (2,100).
 
