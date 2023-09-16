@@ -1,4 +1,4 @@
-# BelongsToThrough
+# Eloquent Param Limit Fix
 
 [![CI](https://github.com/staudenmeir/eloquent-param-limit-fix/actions/workflows/ci.yml/badge.svg)](https://github.com/staudenmeir/eloquent-param-limit-fix/actions/workflows/ci.yml)
 [![Code Coverage](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/?branch=master)
