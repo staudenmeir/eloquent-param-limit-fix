@@ -1,7 +1,7 @@
 # Eloquent Param Limit Fix
 
 [![CI](https://github.com/staudenmeir/eloquent-param-limit-fix/actions/workflows/ci.yml/badge.svg)](https://github.com/staudenmeir/eloquent-param-limit-fix/actions/workflows/ci.yml)
-[![Code Coverage](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/?branch=master)
+[![Code Coverage](https://codecov.io/gh/staudenmeir/eloquent-param-limit-fix/graph/badge.svg?token=33ZV474OJH)](https://codecov.io/gh/staudenmeir/eloquent-param-limit-fix)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/staudenmeir/eloquent-param-limit-fix/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/v/stable)](https://packagist.org/packages/staudenmeir/eloquent-param-limit-fix)
 [![Total Downloads](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/downloads)](https://packagist.org/packages/staudenmeir/eloquent-param-limit-fix/stats)
