@@ -32,7 +32,7 @@ jobs:
       - run: |
           PHPUNIT_FLAGS=$([ "${{ matrix.coverage }}" == "xdebug" ] && echo "--coverage-clover=coverage.xml" || echo "")
           vendor/bin/phpunit $PHPUNIT_FLAGS
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v4
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         if: matrix.coverage == 'xdebug' && env.CODECOV_TOKEN
