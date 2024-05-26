@@ -20,9 +20,9 @@ trait BuildsParamLimitFixQueries
      */
     protected $parameterLimits = [
         MySqlConnection::class => 65000,
+        PostgresConnection::class => 65000,
         SQLiteConnection::class => 900,
         SqlServerConnection::class => 2000,
-        PostgresConnection::class => 65000,
     ];
 
     /**
