@@ -7,7 +7,11 @@
 [![Total Downloads](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/downloads)](https://packagist.org/packages/staudenmeir/eloquent-param-limit-fix/stats)
 [![License](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/license)](https://github.com/staudenmeir/eloquent-param-limit-fix/blob/master/LICENSE)
 
-This Laravel Eloquent fix allows eager loading beyond the parameter limits of MySQL/MariaDB (65,535), [SQLite](https://www.sqlite.org/limits.html#max_variable_number) (999) and [SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/maximum-capacity-specifications-for-sql-server) (2,100).
+This Laravel Eloquent fix allows eager loading beyond the parameter limits of MySQL/MariaDB (
+65,535), [PostgreSQL](https://www.postgresql.org/docs/current/limits.html) (
+65,535), [SQLite](https://www.sqlite.org/limits.html#max_variable_number) (999)
+and [SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/maximum-capacity-specifications-for-sql-server) (
+2,100).
 
 Tested with Laravel 5.4+.
 
