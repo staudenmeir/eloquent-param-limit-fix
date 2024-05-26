@@ -3,6 +3,7 @@
 namespace Staudenmeir\EloquentParamLimitFix\Traits;
 
 use Illuminate\Database\MySqlConnection;
+use Illuminate\Database\PostgresConnection;
 use Illuminate\Database\SQLiteConnection;
 use Illuminate\Database\SqlServerConnection;
 
@@ -21,6 +22,7 @@ trait BuildsParamLimitFixQueries
         MySqlConnection::class => 65000,
         SQLiteConnection::class => 900,
         SqlServerConnection::class => 2000,
+        PostgresConnection::class => 65000,
     ];
 
     /**
