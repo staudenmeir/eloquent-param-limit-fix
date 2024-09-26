@@ -16,7 +16,7 @@ trait BuildsParamLimitFixQueries
      * to have a margin for polymorphic relationships
      * and other query parameters.
      *
-     * @var array
+     * @var array<class-string, int<1, max>>
      */
     protected $parameterLimits = [
         MySqlConnection::class => 65000,
@@ -25,12 +25,7 @@ trait BuildsParamLimitFixQueries
         SqlServerConnection::class => 2000,
     ];
 
-    /**
-     * Eager load the relationships for the models.
-     *
-     * @param array $models
-     * @return array
-     */
+    /** @inheritDoc */
     public function eagerLoadRelations(array $models)
     {
         foreach ($this->parameterLimits as $class => $limit) {
