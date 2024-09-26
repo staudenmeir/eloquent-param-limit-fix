@@ -25,14 +25,7 @@ trait BuildsParamLimitFixQueries
         SqlServerConnection::class => 2000,
     ];
 
-    /**
-     * Eager load the relationships for the models.
-     *
-     * @template TModels of list<\Illuminate\Database\Eloquent\Model>
-     *
-     * @param TModels $models
-     * @return TModels
-     */
+    /** @inheritDoc */
     public function eagerLoadRelations(array $models)
     {
         foreach ($this->parameterLimits as $class => $limit) {
