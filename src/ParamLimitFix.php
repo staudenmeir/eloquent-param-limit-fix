@@ -2,6 +2,9 @@
 
 namespace Staudenmeir\EloquentParamLimitFix;
 
+/**
+ * @phpstan-ignore trait.unused
+ */
 trait ParamLimitFix
 {
     /**

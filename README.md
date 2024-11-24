@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/staudenmeir/eloquent-param-limit-fix/actions/workflows/ci.yml/badge.svg)](https://github.com/staudenmeir/eloquent-param-limit-fix/actions/workflows/ci.yml?query=branch%3Amain)
 [![Code Coverage](https://codecov.io/gh/staudenmeir/eloquent-param-limit-fix/graph/badge.svg?token=33ZV474OJH)](https://codecov.io/gh/staudenmeir/eloquent-param-limit-fix)
-[![PHPStan](https://img.shields.io/badge/PHPStan-level%209-brightgreen.svg?style=flat)](https://github.com/staudenmeir/eloquent-param-limit-fix/actions/workflows/static-analysis.yml?query=branch%3Amain)
+[![PHPStan](https://img.shields.io/badge/PHPStan-level%210-brightgreen.svg?style=flat)](https://github.com/staudenmeir/eloquent-param-limit-fix/actions/workflows/static-analysis.yml?query=branch%3Amain)
 [![Latest Stable Version](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/v/stable)](https://packagist.org/packages/staudenmeir/eloquent-param-limit-fix)
 [![Total Downloads](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/downloads)](https://packagist.org/packages/staudenmeir/eloquent-param-limit-fix/stats)
 [![License](https://poser.pugx.org/staudenmeir/eloquent-param-limit-fix/license)](https://github.com/staudenmeir/eloquent-param-limit-fix/blob/main/LICENSE)
